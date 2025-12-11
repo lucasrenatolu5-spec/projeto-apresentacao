@@ -111,8 +111,8 @@ section.sobre-mim{
    padding-top: 60px;
    display: flex;
    align-items: flex-start;
-   gap: 30px;
-   margin-left: 25px;
+   gap: 15px;
+   margin-left: 15px;
 }
 
 section.sobre-mim img{
