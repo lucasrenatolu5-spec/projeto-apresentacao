@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    overflow-x: hidden
+}
+
+html{
+    background-color: #fff;
+}
+
+body{
+    font-family: var(--font-padrao);
+    background-color: #fff;
+    max-width: 1220px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, 0.308)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --cor0: #63D8F2;
+    --cor1: #41AED9; 
+    --cor2: #049DD9;
+    --cor3: #0487D9;
+    --cor4: #023373;
+
+    --font-padrao: "Rubik", sans-serif;
+
+}
+
+header{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1220px;
+    background-color: #f7f2f2;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.199);
+    position: relative;
+    z-index: 10;
+    margin-top: 10px;
+}
+
+.menu-topo{
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    font-family: var(--font-padrao);
+    width: 100%;
+    max-width: 1220px;
+}
+
+.menu-topo p{
+    font-weight: bold;
+}
+
+.menu-topo .links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: 20px;
+    width: 100%;
+    max-width: 1220px;
+}
+
+.menu-topo a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.menu-topo a:hover{
+    color: blue;
+}
+
+a.botão{
+    display: flex;
+    background-color: var(--cor3);
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    flex-wrap: nowrap;
+    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.233);
+}
+
+.ctt1{
+   justify-content: space-between;
+}
+
+main{
+    width: 100%;
+    margin: auto;
+    max-width: 1220px;
+    background-color: #f7f2f2;
+    height: 100%;
+}
+
+section.sobre-mim{
+   padding-top: 60px;
+   display: flex;
+   align-items: flex-start;
+   gap: 30px;
+   margin-left: 25px;
+}
+
+section.sobre-mim img{
+    max-width: 200px;
+}
+
+.texto{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+   
+}
+
+.Apresentação{
+    display: block;
+    text-indent: 20px;
+    padding: 30px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.texto p{
+    background-color: var(--cor3);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.288);
+}
+
+.habilidades{
+    
+    background-color: #fff;
+    max-width: 170px;
+    padding: 10px;
+    height: 110px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.24);
+    margin-left: 30px;
+}
+
+.hbl1{
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.Minhas-hbl{
+    display: flex;
+}
+
+.habilidades img{
+    max-width: 15px;
+    padding-bottom: 15px;
+}
+
+
+.habilidades p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+section.trajetoria{
+    padding: 30px;
+    margin-top: 80px;
+}
+
+.profissional{
+    margin-left: 20px;
+}
+
+.data{
+    padding-top: 30px;
+}
+
+.onepasso{
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.onepassso{
+    padding-bottom: 8px;
+}
+
+.onepasssso{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+.ultimo{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.74);
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #049dd93f;
+    width: 100%;
+    max-width: 1220px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+footer h3{
+    margin-bottom: 20px;
+}
+
+footer p{
+    margin-bottom: 30px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer .primeiro{
+    background-color: rgb(50, 50, 214);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer .segundo{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+
+
+
+
