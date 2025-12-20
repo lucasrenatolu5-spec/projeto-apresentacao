@@ -3,106 +3,106 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: var(--font-padrao);
+}
+
+:root{
+    --cor0: #63D8F2;
+    --cor1: #41AED9; 
+    --cor2: #049DD9;
+    --cor3: #0487D9;
+    --cor4: #023373;
+
+    --font-padrao: "Rubik", sans-serif;
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-@media (max-width: 768px){
-    .portfolio, .projetos, .contato{
-        top: 45%;
-    }
-}
 
-
-body{
-    font-family: 'rubik', sans-serif;
-}
 
 header{
-    background-color: #0A122A;
-    color: #fff;
+    background-color: #08336b;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 300px;
 }
 
-h1#Principal{
-    background-color: #1c2e63;
-    padding: 10px;
-    max-width: 400px;
+header h1{
+    background-color: #1b4b8b;
+    color: white;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
     margin: auto;
-    border-radius: 10px;
-    box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, 0.418);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.281);
 }
-
-
 
 main{
-    color: #fff;
-    background-image: linear-gradient(to top, #1c2e63, #0A122A);
-    position: relative;
+    background-image: linear-gradient(to top, #023373, #08336b);
     height: 100vh;
+    text-align: center;
 }
 
-main h1{
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.elementos h1{
+    color: white;
+    margin-bottom: 5px;
 }
 
-main p{
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.elementos p{
+    color: white;
+    padding-bottom: 10px;
 }
 
-a{
-    margin-top: 20px;
-    color: #fff;
+.elementos a{
+    display: flex;
     text-decoration: none;
-     background-color: #1c2e63;
-}
-
- a.portfolio{
+    color: white;
     max-width: 100px;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: auto;
+    justify-content: center;
+}
+
+.elementos .portfolio{
+    background-color: #1b4b8b;
+    margin-bottom: 20px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
-a.projetos:hover, .portfolio:hover, .contato:hover{
-    background-color: #0A122A;
-    transform-origin: 1s;
-
-}
-
- a.projetos{
-    max-width: 100px;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.elementos .projetos{
+    background-color: #1b4b8b;
+    margin-bottom: 20px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
- a.contato{
-    max-width: 100px;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.elementos .contato{
+    background-color: #1b4b8b;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
+
+footer p{
+    margin: auto;
+    background-color: #023373;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+
 
